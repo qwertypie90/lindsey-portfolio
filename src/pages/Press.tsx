@@ -32,8 +32,7 @@ function tagClass(type: string): string {
 export default function Press() {
   const [activeIdx, setActiveIdx] = useState(0);
   const active = press[activeIdx] ?? press[0];
-  const total = press.length;
-  const ogImage = useOgImage(active?.url);
+const ogImage = useOgImage(active?.url);
 
   return (
     <div className="wrap">

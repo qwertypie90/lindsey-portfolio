@@ -33,14 +33,6 @@ function PlayDisc() {
   );
 }
 
-function DownloadIcon() {
-  return (
-    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M12 3 L12 15 M6.5 10 L12 15.5 L17.5 10" />
-      <path d="M4 19.5 L20 19.5" />
-    </svg>
-  );
-}
 
 function ExternalIcon() {
   return (
