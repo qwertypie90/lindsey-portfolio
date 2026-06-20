@@ -1334,6 +1334,39 @@ img {
   .laurel {
     white-space: normal;
   }
+
+  .page-head {
+    padding-right: 60px;
+  }
+
+  .page-head .doodle {
+    right: 4px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav-link {
+    font-size: 11px;
+  }
+
+  .nav-left {
+    gap: 5px;
+  }
+
+  .monogram svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .nav-social {
+    gap: 8px;
+    margin-left: 6px;
+  }
+
+  .nav-social svg {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 @media (max-width: 1120px) {
@@ -1384,8 +1417,8 @@ img {
   }
 
   .still.big {
-    grid-column: span 2;
-    grid-row: auto;
+    grid-column: span 2 !important;
+    grid-row: auto !important;
     aspect-ratio: 16 / 9;
   }
 

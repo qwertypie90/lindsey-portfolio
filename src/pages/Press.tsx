@@ -42,7 +42,7 @@ const ogImage = useOgImage(active?.url);
           className="doodle spin-slow"
           style={{ top: 14, right: 120 }}
         />
-        <Clover size={28} className="doodle" style={{ top: 48, right: 70 }} />
+        <Clover size={28} className="doodle" style={{ top:58, right: 70 }} />
         <h1>
           press <span style={{ color: "var(--orange)" }}>&amp;</span> kind words
         </h1>

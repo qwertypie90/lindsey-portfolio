@@ -63,8 +63,14 @@ export default function About() {
       <header className="page-head" style={{ position: "relative" }}>
         <Flower size={38} className="doodle spin-slow" style={{ top: 14, right: 80 }} />
         <h1>
-          {about.headline.replace("✺", "")}
-          {about.headline.includes("✺") && <span style={{ color: "var(--green)" }}>✺</span>}
+          {about.headline.includes("✺") ? (
+            <>
+              {about.headline.split("it's")[0]}
+              <span style={{ whiteSpace: "nowrap" }}>it's lindsey <span style={{ color: "var(--green)" }}>✺</span></span>
+            </>
+          ) : (
+            about.headline
+          )}
         </h1>
         <p className="sub">{about.sub}</p>
       </header>
