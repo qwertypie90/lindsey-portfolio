@@ -240,8 +240,8 @@ export const about = {
   headline: "hi again, it's lindsey ✺",
   sub: "seatbelts, everyone.",
   bio: [
-    "Short, voicey bio paragraph. Where you're from, what you make, why you make it — written like you talk, not like a rep wrote it.",
-    "Second paragraph for the heart: the messiness of living, the things you chase on the page and on camera.",
+    "Upon moving to Los Angeles, I starred, wrote and produced the web series <em>Echo and Nellie</em> and <em>MisSpelled</em>, and the short film <em>Dominique&rsquo;s Baby</em>. I was a guest star in <em>Grey&rsquo;s Anatomy</em> on ABC and co-star in the feature film <em>To the Bone</em> on Netflix. I was also a staff writer on Fox&rsquo;s animated comedy <em>HouseBroken</em>.",
+    "I am <s>learning to live with the devastation of</s> fascinated by the messiness and truth of modern living, the world(s) we get sucked into on our phones, and the desperation to appear just &ldquo;fine.&rdquo;",
   ],
   polaroids: [
     { src: "/images/childhood_photo.jpg", alt: "Childhood photo", caption: "baby lindsey" },

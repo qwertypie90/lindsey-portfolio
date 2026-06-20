@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { featuredPilot, films, publications, television, Still } from "../content";
 import Placeholder from "../components/Placeholder";
-import ScriptModal from "../components/ScriptModal";
 
 function PlayMini() {
   return (
@@ -39,8 +38,6 @@ function TvCarousel({ photos }: { photos: Still[] }) {
 }
 
 export default function Writing() {
-  const [scriptOpen, setScriptOpen] = useState(false);
-
   const tvPhotos: Still[] = [
     { src: television.featuredPhoto, alt: television.featuredPhotoAlt },
     ...television.gallery,
@@ -75,9 +72,12 @@ export default function Writing() {
                 </span>
               ))}
             </div>
-            <button className="btn btn-orange" onClick={() => setScriptOpen(true)}>
+            <a
+              className="btn btn-orange"
+              href="mailto:lindseymcd@me.com?subject=Script%20Request%3A%20Developers&body=Hi%20Lindsey%2C%0A%0AI%27d%20love%20to%20read%20the%20Developers%20pilot.%20Please%20send%20it%20my%20way!%0A%0AThanks,%0A%0A"
+            >
               {featuredPilot.ctaLabel} →
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -159,7 +159,6 @@ export default function Writing() {
           ))}
         </div>
       </section>
-      {scriptOpen && <ScriptModal onClose={() => setScriptOpen(false)} />}
     </div>
   );
 }

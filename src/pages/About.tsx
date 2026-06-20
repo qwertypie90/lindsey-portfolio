@@ -87,9 +87,7 @@ export default function About() {
         </div>
         <div className="about-bio">
           {about.bio.map((para, i) => (
-            <p key={i} style={i > 0 ? { color: "var(--muted)" } : undefined}>
-              {para}
-            </p>
+            <p key={i} dangerouslySetInnerHTML={{ __html: para }} />
           ))}
         </div>
       </section>
