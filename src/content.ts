@@ -105,16 +105,16 @@ export const actingClips: VideoClip[] = [
 /* 10 photos: first 5 fill block one (big photo LEFT), last 5 fill
    block two (big photo RIGHT). First photo of each group is the big one. */
 export const stills: Still[] = [
-  { src: "/images/act_gallery_1.jpeg", alt: "Nothing that Meredith Grey can't do!" },
+  { src: "/images/act_gallery_1.jpg", alt: "Nothing that Meredith Grey can't do!" },
   { src: "/images/act_gallery_2.jpg", alt: "Still from Hauntology" },
-  { src: "/images/act_gallery_3.JPG", alt: "At the Sundance Film Festival premiere of To the Bone alongside Lily Collins, Maya Eshet, Ciara Bravo, and writer-director Marti Noxon" },
-  { src: "/images/act_gallery_4.jpeg", alt: "Me and... well... don't make me say it!" },
+  { src: "/images/act_gallery_3.jpg", alt: "At the Sundance Film Festival premiere of To the Bone alongside Lily Collins, Maya Eshet, Ciara Bravo, and writer-director Marti Noxon" },
+  { src: "/images/act_gallery_4.jpg", alt: "Me and... well... don't make me say it!" },
   { src: "/images/act_gallery_5.jpg", alt: "On set with Laur Allen, Marci Miller, Camila Banus and Sal Stowers" },
-  { src: "/images/act_gallery_6.png", alt: "Still from Douglas Fairbanks is Haunting Me" },
-  { src: "/images/act_gallery_7.jpeg", alt: "In the studio with Marius DeVries, Justin Jurwitz and Damian Chazelle for La La Land" },
+  { src: "/images/act_gallery_6.jpg", alt: "Still from Douglas Fairbanks is Haunting Me" },
+  { src: "/images/act_gallery_7.jpg", alt: "In the studio with Marius DeVries, Justin Jurwitz and Damian Chazelle for La La Land" },
   { src: "/images/act_gallery_8.jpg", alt: "Still from Tingle" },
-  { src: "/images/act_gallery_9.JPG", alt: "Photoshoot for The Plus Bus" },
-  { src: "/images/act_gallery_10.JPEG", alt: "On set of Douglas Fairbanks is Haunting Me. Looking at Bernard David Jones like he holds the keys to making Barack Obama president again" },
+  { src: "/images/act_gallery_9.jpg", alt: "Photoshoot for The Plus Bus" },
+  { src: "/images/act_gallery_10.jpg", alt: "On set of Douglas Fairbanks is Haunting Me. Looking at Bernard David Jones like he holds the keys to making Barack Obama president again" },
 ];
 
 /* ───────────── WRITING ───────────── */
@@ -124,7 +124,7 @@ export const featuredPilot = {
   format: "half-hour comedy",
   logline:
     "Four misfits with wildly different dreams and dysfunctional skill sets are thrust together in a grueling coding bootcamp. Despite messy beginnings and constant chaos, they must overcome their differences and self-doubt to survive (and maybe even thrive) in the cutthroat world of tech.",
-  keyArt: "/images/previs_developers.png",
+  keyArt: "/images/previs_developers.jpg",
   laurels: [
     "★ Finalist — Los Angeles Television, Script and Film Festival",
     "★ Finalist — Santa Barbara International Screenplay Awards",
@@ -138,12 +138,12 @@ export const television = {
   credit: "Staff Writer · Season 2",
   blurb:
     "Served as a Staff Writer on Season 2 of FOX's HouseBroken, contributing story development, episode breaking, and comedy writing in a collaborative writers' room environment. Featuring Lisa Kudrow, Clea DuVall, Nat Faxon, Maria Bamford, Will Forte, Tony Hale, Sharon Horgan, Jason Mantzoukas, and Sam Richardson.",
-  featuredPhoto: "/images/zoom_hb.JPG",
+  featuredPhoto: "/images/zoom_hb.jpg",
   featuredPhotoAlt: "The writers room at work",
   gallery: [
-    { src: "/images/staffwriter_hb.JPG", alt: "Whiteboard breakdown" },
+    { src: "/images/staffwriter_hb.jpg", alt: "Whiteboard breakdown" },
     // { src: "/images/staffwriter_hb.JPG", alt: "Index cards" },
-    { src: "/images/writersroom_hb.jpeg", alt: "The room" },
+    { src: "/images/writersroom_hb.jpg", alt: "The room" },
     // { src: "/images/writersroom_hb.jpeg", alt: "Script pages" },
   ] as Still[],
 };
@@ -176,7 +176,7 @@ export const publications: Publication[] = [
     year: "2023",
     excerpt:
       "I started to feel like I existed online and nowhere else.",
-    image: "/images/vlygrl_poster.png",
+    image: "/images/vlygrl_poster.jpg",
     readUrl: "/lindseymcdowell_VLY-GRL-Zine-3_eBook.pdf",
   },
   // {
@@ -245,7 +245,7 @@ export const about = {
   ],
   polaroids: [
     { src: "/images/childhood_photo.jpg", alt: "Childhood photo", caption: "baby lindsey" },
-    { src: "/images/me_now.png", alt: "On set", caption: "on set, laughing" },
+    { src: "/images/me_now.jpg", alt: "On set", caption: "on set, laughing" },
   ] as PolaroidPhoto[],
   /** career stops, oldest → now. Add more and the bus route grows. */
   fieldTrip: ["theater kid", "first short film", "the writers room", "now ★"],
