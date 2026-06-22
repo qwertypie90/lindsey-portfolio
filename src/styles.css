@@ -1334,13 +1334,72 @@ img {
   .laurel {
     white-space: normal;
   }
+}
 
+@media (max-width: 460px) {
   .page-head {
     padding-right: 60px;
   }
 
   .page-head .doodle {
     right: 4px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-left {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 0;
+  }
+
+  .nav-link {
+    font-size: 13px;
+  }
+
+  .monogram svg {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-social {
+    display: none;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+  }
+
+  .footer-social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    order: -1;
+  }
+
+  .footer-social a {
+    color: var(--muted);
+    display: flex;
+    transition: color 0.15s ease;
+  }
+
+  .footer-social a:hover {
+    color: var(--orange);
+  }
+}
+
+@media (min-width: 451px) {
+  .footer-social {
+    display: none;
   }
 }
 
@@ -1356,16 +1415,6 @@ img {
   .monogram svg {
     width: 24px;
     height: 24px;
-  }
-
-  .nav-social {
-    gap: 8px;
-    margin-left: 6px;
-  }
-
-  .nav-social svg {
-    width: 16px;
-    height: 16px;
   }
 }
 
