@@ -155,7 +155,7 @@ export const films: Film[] = [
     synopsis: "Desperate for validation from family and friends, a 23 year old kickstarts her pregnancy and becomes an overnight viral sensation. The kicker? She’s totally faking it.",
     poster: "/images/dominiquesbaby_poster.jpg",
     trailerUrl: "https://www.youtube.com/watch?v=xm8uiZHeXqg",
-    // watchUrl: "#",
+    watchUrl: "https://youtu.be/Vz78VXV-QYc?si=yWYXugXNmFkj6tyK",
     laurels: ["Finalist — Amazon All Voices Contest"],
   },
   {
